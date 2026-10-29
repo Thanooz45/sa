@@ -1,0 +1,48 @@
+================================================================================
+SECRET AGENT — QUICK START GUIDE
+================================================================================
+
+STATUS UPDATE:
+- yt-dlp is now running on Python 3.13!
+  Path: /Users/chintalapudithanooz/Documents/Projects/FudByte Website/abc/server/venv/bin/yt-dlp
+  Version: 2026.10.26 (Python 3.13.16)
+  Deprecation warnings eliminated.
+
+- Both servers are active:
+  Backend:  http://localhost:5001
+  Frontend: http://127.0.0.1:3000
+
+--------------------------------------------------------------------------------
+STEP 1: INSTALL DEPENDENCIES (Already Done)
+--------------------------------------------------------------------------------
+From project root (/abc):
+   npm run install:all
+
+--------------------------------------------------------------------------------
+STEP 2: START BACKEND SERVER
+--------------------------------------------------------------------------------
+   npm run dev:server
+   (Runs on http://localhost:5001 with Python 3.13 yt-dlp)
+
+--------------------------------------------------------------------------------
+STEP 3: START FRONTEND (UI)
+--------------------------------------------------------------------------------
+   npm run dev:client
+   (Runs on http://127.0.0.1:3000)
+
+--------------------------------------------------------------------------------
+STEP 4: OPEN IN BROWSER
+--------------------------------------------------------------------------------
+Open http://127.0.0.1:3000
+
+Example test URLs:
+- Internet Archive item:
+  https://archive.org/details/BigBuckBunny_124
+- Direct video:
+  https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.ogv
+
+--------------------------------------------------------------------------------
+RUNNING TESTS:
+--------------------------------------------------------------------------------
+   npm test
+================================================================================
