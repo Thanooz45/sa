@@ -1,7 +1,8 @@
 FROM node:22-slim
 
-# Install FFmpeg and download the standalone yt-dlp binary.
+# Install Python for yt-dlp, FFmpeg, and download the yt-dlp executable.
 RUN apt-get update && apt-get install -y --no-install-recommends \
+    python3 \
     ffmpeg \
     curl \
     ca-certificates \
